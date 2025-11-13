@@ -1,0 +1,26 @@
+{
+	"name": "com.openngs.windows.input",
+	"displayName": "OpenNGS Windows Input",
+	"version": "0.1.0",
+	"openngs": "2026.1",
+	"description": "OpenNGS Windows Input package",
+	"author": {
+		"name": "EE GAMES",
+		"email": "ray@eegames.com",
+		"url": "https://www.openngs.com"
+	},
+	"_upm": {
+		"supportedPlatforms": [
+			"Windows"
+		]
+	},
+	"dependencies": {
+		"com.openngs.windows": "0.1.0"
+	},
+	"license": "MIT",
+	"keywords": [
+		"openngs",
+		"windows",
+    	"input"
+	]
+}
