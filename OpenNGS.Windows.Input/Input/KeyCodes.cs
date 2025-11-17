@@ -332,4 +332,14 @@ namespace OpenNGS.Windows.Input
             map[VK_UP] = KeyCode.UpArrow;//0x26;//	Arrow Up
         }
     }
+
+
+    public enum MouseButton
+    {
+        Left = 0, 
+        Right = 1, 
+        Middle = 2,
+        Button4 = 3, XButton1 = 3, Forward = 3,
+        Button5 = 4, XButton2 = 4, Back = 4,
+    }
 }

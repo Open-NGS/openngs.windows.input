@@ -1,0 +1,22 @@
+{
+    "name": "OpenNGS.Windows.Input",
+    "rootNamespace": "",
+    "references": [
+        "OpenNGS.Windows",
+        ""
+    ],
+    "includePlatforms": [
+        "Editor",
+        "WSA",
+        "WindowsStandalone32",
+        "WindowsStandalone64"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
