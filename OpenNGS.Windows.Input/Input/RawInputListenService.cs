@@ -139,6 +139,7 @@ public static class RawInputListenService
                             OnMouseMove?.Invoke(new Vector2(absoluteX - oldX, absoluteY - oldY));
                         }
                         oldX = absoluteX;
+                        oldY = absoluteY;
                     }
                     else
                     {
