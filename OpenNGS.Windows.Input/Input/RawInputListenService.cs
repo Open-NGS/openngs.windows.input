@@ -134,6 +134,9 @@ public static class RawInputListenService
                         int absoluteX = (int)(mouse.Mouse.LastX * (rect.xMax / Native.USHRT_MAX)) + (int)rect.xMin;
                         int absoluteY = (int)(mouse.Mouse.LastY * (rect.yMax / Native.USHRT_MAX)) + (int)rect.yMin;
 
+                        if (oldX == int.MaxValue) oldX = absoluteX;
+                        if (oldY == int.MaxValue) oldY = absoluteY;
+
                         if (oldX != int.MinValue && oldY != int.MinValue)
                         {
                             OnMouseMove?.Invoke(new Vector2(absoluteX - oldX, absoluteY - oldY));
